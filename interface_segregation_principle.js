@@ -1,3 +1,6 @@
+//Don't put too much into an interface; split into separate interfaces
+//YAGNI - You Ain't Going to Need It
+
 class Document {
 
 }

@@ -1,3 +1,4 @@
+//classes should be opened for extention but closed for modification
 let color = Object.freeze({
     red: 'red',
     green: "green",

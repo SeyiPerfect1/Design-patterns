@@ -1,3 +1,7 @@
+//A class should only have one reason to change
+//Separation of concerns--different classes handling different, 
+// independent tasks/problems
+
 const fs = require("fs")
 const path = require('path')
 
@@ -40,3 +44,4 @@ console.log(Journal.myname)
 
 let p = new PersistenceManager()
 p.saveToFile(j, filename)
+
