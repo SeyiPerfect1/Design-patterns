@@ -1,4 +1,4 @@
-//High level modules should not directly depend on low lwvwl module,
+//High level modules should not directly depend on low level module,
 // they should instead depend on abstractions
 
 let Relationship = Object.freeze({
